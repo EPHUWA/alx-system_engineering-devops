@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Enter file name"
+read f
+touch $f
+chmod +x $f
+echo "#!/bin/bash" > $f
+echo "Enter anser"
+read a
+echo "$a" >> $f
+echo "Done and Dusted"
