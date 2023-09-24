@@ -1,2 +1,2 @@
-#!/binbash
+#!/bin/bashbash
 chmod u+x hello
