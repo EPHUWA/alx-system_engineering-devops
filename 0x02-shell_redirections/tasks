@@ -7,4 +7,12 @@ echo "#!/bin/bash" > $f
 echo "Enter anser"
 read a
 echo "$a" >> $f
+echo "Git Push"
+git add .
+echo "Type Commit"
+read c
+git commit -m "$c"
+git push
+echo ==================================================
 echo "Done and Dusted"
+echo ==================================================
